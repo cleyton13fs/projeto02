@@ -1,20 +1,21 @@
 body {
   margin: 0;
+  background: linear-gradient(180deg, rgba(26, 255, 200, 0.00) 0%, rgba(227, 255, 248, 1) 100%);
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(180deg, rgba(26, 255, 200, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);  min-height: 100vh;
+  height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 0 auto 0;
+  margin: 65px auto 0;
   padding-top: 65px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 55px;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
 }
 
 ul {
@@ -28,12 +29,12 @@ ul {
 ul li a{
   opacity: 0.5;
 }
-
-/* pseudo classe */
+/*pseudo classe*/
 ul li a:hover {
   font-weight: bold;
   opacity: 1;
 }
+
 
 a {
   color: #1f1534;
@@ -59,8 +60,10 @@ h1 {
 }
 
 h1 span {
-  color: #89c5cc;
+  color: #89C5CC;
+  font-family: Mulish;
   font-weight: bold;
+  text-shadow: 1px 1px white, -1px -1px #444;
 }
 
 section p {
@@ -81,13 +84,14 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  border-radius: 4px;
+  border-radius: 100px;
   cursor: pointer;
 }
 
 button:hover {
   background: #5a9c85;
 }
+
 
 footer {
   font-size: 14px;
@@ -96,11 +100,11 @@ footer {
   margin-top: 80px;
 }
 
-footer a {
+footer a{
   font-weight: bold;
 }
 
-#in100tiva {
+#logo-low {
   position: fixed;
   bottom: 50px;
   right: 50px;
